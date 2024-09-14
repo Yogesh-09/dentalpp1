@@ -68,7 +68,7 @@
         <li class="first"><a href="#">Gallery</a></li>
         <li class="first"><a href="#">Contact Us</a></li>
        <div class="btnfirst">
-        <button>welcome to My  button </button>
+        <button>welcome to My some</button>
         </div>
     </ul>
 </nav>
