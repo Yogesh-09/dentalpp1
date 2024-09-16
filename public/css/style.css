@@ -11,6 +11,9 @@
     column-gap: 44px;
     list-style-type: none;
 }
+li.first a {
+    text-decoration: none !important;
+}
 .btn{
     color: aqua;
     background-color: blue;
