@@ -2,16 +2,22 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home.blade.php', function () {
-    return view('home');
-});
 
-Route::get('/header.blade.php', function () {
-    return view('header');
-});
+use App\Http\Controllers\HomeController;
+
+Route::get('/home', [HomeController::class, 'index']);
 
 
-Route::get('/footer.blade.php', function () {
-    return view('footer');
-});
+// Route::get('/home.blade.php', function () {
+//     return view('home');
+// });
+
+// Route::get('/header.blade.php', function () {
+//     return view('header');
+// });
+
+
+// Route::get('/footer.blade.php', function () {
+//     return view('footer');
+// });
 
