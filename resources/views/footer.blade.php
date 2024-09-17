@@ -6,7 +6,9 @@
 </head>
 
 <body>
-    <header>
+    <footer>
+        <div col-md-12>
+
         <div class="logo">
         </div>
         <nav>
@@ -27,7 +29,8 @@
                     +91 7974303995</p>
             </ul>
         </nav>
-    </header>
+        </div>
+    </footer>
 
 </body>
 
